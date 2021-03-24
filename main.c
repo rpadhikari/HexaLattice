@@ -29,7 +29,7 @@ int main() {
     for(int j=-n2; j<=n2; j++) {
       T1=i*a1[0]+j*a2[0];
       T2=i*a1[1]+j*a2[1];
-      fprintf(fout,"%20.15lf %20.15lf\n",T1, T2);
+      fprintf(fout,"%d %d %20.15lf %20.15lf\n",i, j, T1, T2);
     }
   }
   fclose(fout);
